@@ -76,3 +76,13 @@ main button a {
 .download-button {
     color: white;
 }
+
+table {
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}

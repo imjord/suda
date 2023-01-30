@@ -6,7 +6,20 @@
             <h1>Download</h1>
             <p>Download the latest version of Suda.</p>
             <form action="/download" method="post">
-                <button class="download-button" type="submit">Download</button>
+                <table>
+                    <tr >
+                        <th scope="col">Suda</th>
+                        <th scope="col">Windows</th>
+                        <th scope="col">Version</th>
+                        <th scope="col">Download</th>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row">Latest Version</th>
+                        <td><input type="radio" name="version" value="1.0.0" checked></td>
+                        <td><label for="version">1.0.0</label></td>
+                        <td><button class="download-button" type="submit">Download</button></td>
+                    </tr>
+                </table>
             </form>
         </div>
        
