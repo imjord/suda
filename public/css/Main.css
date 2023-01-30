@@ -49,6 +49,15 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     font-weight: 600;
     cursor: pointer;
 }
+main button a {
+    text-decoration: none;
+    color: white;
+}
+
+.download-button a {
+    text-decoration: none;
+    color: white;
+}
 
 .quote {
     font-size: 24px;
@@ -56,4 +65,10 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     font-weight: 400;
     color: #a4508b;
     text-align: center;
+    margin: 1rem 0;
+}
+
+
+.download-div {
+    margin-top: 150px;
 }
