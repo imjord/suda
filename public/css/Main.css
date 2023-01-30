@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Unbounded&display=swap');
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 6rem 0;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 6rem 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 50%;
+    padding: 2rem;
+}
+
+main h1 {
+    font-size: 72px;
+  background: -webkit-linear-gradient(315deg, #fba8a4 0%, #dad2f3 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-text {
+    padding: 1rem;
+    color: #a4508b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.landing-text button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.quote {
+    font-size: 24px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    color: #a4508b;
+    text-align: center;
+}
